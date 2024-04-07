@@ -13,7 +13,7 @@ function App() {
     // <Router> 컴포넌트 안에 있는 서브 컴포넌트들은 유저들에게 보여주고 싶은 것
     // Route를 찾는 일 
     // 웹페이지 URL를 찾는 것  
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       {/* <Router> : 한 번에 하나의 Route만 렌더링 하기 위해서 */}
       <Routes> 
 
@@ -24,7 +24,7 @@ function App() {
 
 
         {/* url 주소, 주소에 해당하는 route 컴포넌트  */}
-        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />}></Route> 
+        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home/>}></Route> 
 
       </Routes>
     </Router>
