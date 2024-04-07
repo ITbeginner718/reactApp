@@ -20,11 +20,11 @@ function App() {
         {/* url 주소, 주소에 해당하는 route 컴포넌트   */}
         {/* 영화 상세 페이지  */}
         {/* :id 값에 따른 route 이동 movie/id를 하게 되면 텍스트 그래도 "movie/id"로 이동하게 됨*/}
-        <Route path={`${process.env.PUBLIC_URL}/movie/:id`} element={<Detail/>}></Route>
+        <Route path="/movie/:id" element={<Detail/>}></Route>
 
 
         {/* url 주소, 주소에 해당하는 route 컴포넌트  */}
-        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home/>}></Route> 
+        <Route path="/" element={<Home/>}></Route> 
 
       </Routes>
     </Router>
