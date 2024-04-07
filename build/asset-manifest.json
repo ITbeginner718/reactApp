@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.bc2dd0f4.js",
-    "index.html": "/index.html",
-    "main.bc2dd0f4.js.map": "/static/js/main.bc2dd0f4.js.map"
+    "main.js": "/reactApp/static/js/main.bc2dd0f4.js",
+    "index.html": "/reactApp/index.html",
+    "main.bc2dd0f4.js.map": "/reactApp/static/js/main.bc2dd0f4.js.map"
   },
   "entrypoints": [
     "static/js/main.bc2dd0f4.js"
